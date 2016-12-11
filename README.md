@@ -1,6 +1,6 @@
 # Bookstore
 
-A simple application showing how to use Swift-Kuery 
+A simple application showing how to use Swift-Kuery
 
 ## Getting started
 
@@ -25,7 +25,7 @@ On Linux: `sudo apt-get install libpq-dev`
 
 5. **Run**:
 
-  `.build/debug/bookstore`
+  `.build/debug/Server`
 
 6. **Test**:
 
@@ -51,7 +51,7 @@ select * from books, authors, book_author where books.book_id=book_author.book_i
   1. Build the image
 
   ```
-  $ docker build -t bookstore . 
+  $ docker build -t bookstore .
   ```
 
   2. Run the image
